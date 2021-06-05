@@ -6,13 +6,13 @@ $(document).ready(function() {
     });
   });
 
-  $('#slides').hammer().on('swipeleft', function() {
-    $(this).superslides('animate', 'next');
-  });
+  // $('#slides').hammer().on('swipeleft', function() {
+  //   $(this).superslides('animate', 'next');
+  // });
 
-  $('#slides').hammer().on('swiperight', function() {
-    $(this).superslides('animate', 'prev');
-  });
+  // $('#slides').hammer().on('swiperight', function() {
+  //   $(this).superslides('animate', 'prev');
+  // });
 
 
 	function isElementInViewport(elem) {
