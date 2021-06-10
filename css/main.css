@@ -225,6 +225,7 @@ body {
 }
 
 #work {
+  padding-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -235,11 +236,13 @@ body {
   /*cursor: pointer;*/
 }
 
+.flipImg {
+  height: 100%;
+}
 .flipImg img {
   width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 100%;
+  object-fit: cover;
 }
 
 .flipText {
@@ -335,21 +338,12 @@ body {
   margin-top: 10px;
 }
 
-#maps {
-  margin-bottom: 50px;
-}
-
 #maps iframe {
   width: 100% !important;
 }
 
 .map-container {
   width: 100%;
-}
-
-.map-container>div {
-  /*max-width: 800px;*/
-  /*margin: 0 auto;*/
 }
 
 #map-canvas {
@@ -364,7 +358,7 @@ body {
 
 #footer h3 {
   color: #fff;
-  margin-bottom: 20px;
+  margin: 50px 0;
 }
 
 .social_icons {
@@ -398,10 +392,6 @@ body {
 .info address {
   border-left: 3px solid #5bb947;
   padding-left: 10px;
-}
-
-.info h3 {
-  /*color: #;*/
 }
 
 .contact {
@@ -678,7 +668,7 @@ body {
     margin-left: -300px;
   }
   .flipUp {
-    height: 350px;
+    height: 400px;
   }
   .social_icons li img {
     width: 48px;
